@@ -21,7 +21,7 @@ export class infinite extends Component {
 
   start() {
     let list_element = this.node.getComponent(ScrollView).content;
-    let dataofuser = this.jsondata.json.data;
+    let dataofuser = this.jsondata.json.data
 
     for (let index = 0; index < dataofuser.length; index++) {
       let NEW_Ad = instantiate(this.data);
